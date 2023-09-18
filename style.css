@@ -10,16 +10,21 @@
 }
 body{
     background-color: #323232;
+      
 }
-.card{
+.card{    
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(135deg, #00feba, #5b548a);
     color: white;
+    border-radius: 30px;
+    background: #212121;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),-15px -15px 30px rgb(60, 60, 60);
     margin: 100px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center; 
+    transition: 1.2s;
+    transform: scale(1.2);
 }
 .search{
     width: 100%;
@@ -87,3 +92,17 @@ body{
     font-size: 28px;
     margin-top: -6px;
 }
+
+.morning {
+    background: linear-gradient(135deg, #87ceeb, #5f9ea0);
+  }
+  
+.afternoon {
+    background: linear-gradient(135deg, #f7dc6f, #f3b91d);
+  }
+  
+.night {
+    background: linear-gradient(135deg, #050a11, #3f6179);
+    
+  }
+  
